@@ -2,12 +2,12 @@
 
 int main(){
 	int a,b,somme;
-	printf("bienvenue dans notre programme");
+	printf("bienvenue dans notre programme\n");
 	printf("entrer le premier nombre:");
 	scanf("%d",&a);
 	printf("entrer le deuxieme nombre:");
 	scanf("%d",&b);
 	somme=a+b;
-	printf("la somme est : %d \n",somme);
+	printf("%d + %d = %d \n",a,b,somme);
 	return 0;
 }
